@@ -7,6 +7,6 @@ public class default_constructors {
     }
     public static void main(String[] args) {
         default_constructors obj = new default_constructors();
-
+        
     }
 }
