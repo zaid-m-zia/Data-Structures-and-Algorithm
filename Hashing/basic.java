@@ -7,5 +7,6 @@ public class basic {
        System.out.println(a.hashCode());
        Integer b = 4;
        System.out.println(b.hashCode());
+
     }
 }
