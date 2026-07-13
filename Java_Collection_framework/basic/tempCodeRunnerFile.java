@@ -1,1 +1,1 @@
-        list.get(2);      
+Stack

@@ -3,10 +3,10 @@ import java.util.*;
 
 public class LinkedList_demo {
     public static void main(String[] args) {
-        List <Integer> list = new LinkedList<>();
-        list.add(3);
-        list.add(5);
-        list.add(6);
+        Queue <Integer> list = new PriorityQueue<>();
+        list.push(3);
+        list.push(5);
+        list.push(6);
         System.out.println(list);
     // try{
         // list.get(2);       does not show output without a print statement   
@@ -16,10 +16,9 @@ public class LinkedList_demo {
     // }
 
     // list.set(0, 1000);      shows output without print statement
-        for(int nums:list){
-            System.out.println(nums);
-        }
+    list.pop();
     System.out.println(list);
+    System.out.println(list.peek());
 
     }
 }
